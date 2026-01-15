@@ -24,11 +24,11 @@ const projects = [
     id: 3,
     title: "E-commerce Platform",
     description:
-      "An e-commerce platform that demonstrates product browsing and basic cart functionality. Built as a learning project to practice modern web development and responsive layouts.",
+      "A responsive e-commerce homepage clone showcasing product categories, navigation, and layout structure. Developed as a learning project to strengthen modern frontend and responsive design skills.",
     image: `${import.meta.env.BASE_URL}projects/project1.jpg`,
-    tags: ["React", "Node.js", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://anshu-kr576.github.io/E-commerce/",
+    githubUrl: "https://github.com/anshu-kr576/E-commerce.git",
   },
 ];
 

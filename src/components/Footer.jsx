@@ -1,4 +1,4 @@
-import { ArrowUp } from "lucide-react";
+import { ArrowUp, Mail } from "lucide-react";
 
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
 
@@ -22,12 +22,12 @@ export const Footer = () => {
           <a href="www.linkedin.com/in/anshu-kumar-261020333" className="hover:text-primary transition">
             <Linkedin size={18} />
           </a>
-          <a href="#" className="hover:text-primary transition">
-            <Twitter size={18} />
+          <a href="mailto:anshuking576@gmail.com" className="hover:text-primary transition">
+            <Mail size={18} />
           </a>
-          <a href="#" className="hover:text-primary transition">
+          {/* <a href="#" className="hover:text-primary transition">
             <Instagram size={18} />
-          </a>
+          </a> */}
           <a
         href="#hero"
         className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors"

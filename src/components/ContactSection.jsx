@@ -5,6 +5,7 @@ import {
   Linkedin,
   Twitter,
   Instagram,
+  Github,
 } from "lucide-react";
 
 export const ContactSection = () => {
@@ -40,7 +41,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="font-medium">Email</p>
                   <p className="text-muted-foreground">
-                    ABC123@gmail.com
+                    anshuking576@gmail.com
                   </p>
                 </div>
               </div>
@@ -52,7 +53,7 @@ export const ContactSection = () => {
                 <div>
                   <p className="font-medium">Phone</p>
                   <p className="text-muted-foreground">
-                    +1 (123) 456-7890
+                    +91 935-7890
                   </p>
                 </div>
               </div>
@@ -76,10 +77,35 @@ export const ContactSection = () => {
                 Connect With Me
               </p>
               <div className="flex gap-4">
-                <Linkedin className="h-5 w-5 hover:text-primary cursor-pointer" />
-                <Twitter className="h-5 w-5 hover:text-primary cursor-pointer" />
-                <Instagram className="h-5 w-5 hover:text-primary cursor-pointer" />
-              </div>
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/anshu-kumar-261020333"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-primary transition"
+  >
+    <Linkedin className="h-5 w-5 cursor-pointer" />
+  </a>
+
+  {/* GitHub */}
+  <a
+    href="https://github.com/anshu-kr576"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-primary transition"
+  >
+    <Github className="h-5 w-5 cursor-pointer" />
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:anshuking576@gmail.com"
+    className="hover:text-primary transition"
+  >
+    <Mail className="h-5 w-5 cursor-pointer" />
+  </a>
+</div>
+
             </div>
           </div>
 
@@ -108,7 +134,7 @@ export const ContactSection = () => {
                 <input
                   type="email"
                   className="w-full px-4 py-3 rounded-md bg-background border border-input focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="ABC@gmail.com"
+                  placeholder="anshuking576@gmail.com"
                 />
               </div>
 
