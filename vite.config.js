@@ -7,6 +7,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/PortFolio/',
+   build: {
+    outDir: 'docs',   // 👈 ADD ONLY THIS
+  },
    resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
